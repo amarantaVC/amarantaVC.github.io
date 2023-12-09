@@ -23,10 +23,17 @@ section {
   color: black;
 }
 
-.badge{
-  background-color: #0a0a23;
-  color: white;
+.seccion-titulo-hablemos{
+  color: black;
+  font-size: 2.5rem;
+  font-family: 'Rubik Dirt', cursive;
 }
+
+.badge{
+  background-color: rgb(242, 206, 247);
+  color: #1b1b32;
+}
+
 
 h1 {
   font-size: 2.5rem;
@@ -47,6 +54,7 @@ h1 {
   font-size: 2rem;
   padding: 15px 0;
   font-family: 'Rubik Dirt', cursive;
+  color: white;
 }
 
 .seccion-descripcion {
@@ -129,11 +137,15 @@ h1 {
   align-items: center;
   justify-content: space-evenly;
   transition: all 0.2s ease-in;
+  color: white;
+  background-color: #1b1b32;
+
 }
 
 .experiencia .columna:hover {
-  color: white;
-  background-color: #1b1b32;
+  color: #0a0a23;
+  background-color: whitesmoke;
+  border-color:#1b1b32 ;
 }
 
 .experiencia i {
@@ -143,6 +155,8 @@ h1 {
   padding: 8px 21px;
   border-radius: 50%;
 }
+
+
 
 .experiencia-titulo {
   font-size: 25px;
@@ -190,6 +204,9 @@ h1 {
   text-align: center;
 }
 
+.iconos-contenedor-git i {
+  margin-left: 10px;
+}	
 .overlay p {
   font-size: 25px;
   font-weight: bold;
