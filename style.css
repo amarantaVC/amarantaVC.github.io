@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 0.8rem;
-  background-color: rgb(242, 206, 247);
+  background-color: rgb(255, 255, 255);
 }
 
 .navbar-collapse {
@@ -30,7 +30,7 @@ section {
 }
 
 .badge{
-  background-color: rgb(242, 206, 247);
+  background-color: rgb(245, 211, 250);
   color: #1b1b32;
 }
 
@@ -91,7 +91,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(230, 193, 238);
   min-height: 450px;
   text-align: center;
 }
